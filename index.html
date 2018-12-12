@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--link rel="stylesheet" href="css/styles.css"-->
+    <title>Title</title>
+    <!--<script type="application/ld+json">-->
+    <!--{"@type":"WebSite","url":"https://www.mathjax.org/","name":"MathJax","author":{"@type":"Person","name":"MathJax Consortium"},"headline":"MathJax","description":"Beautiful math in all browsers.","@context":"http://schema.org"}-->
+    <!--</script>-->
+    <script type="text/javascript" src="js/template.js"></script>
+    <script type="text/javascript" async src="js/main.js"></script>
+</head>
+<body>
+<div style="height:700px;padding-left: 10px">
+    <br/>
+    <div class="col-md-4" style="height:600px;">
+        <h3>公式模版</h3>
+        <div class="pre-scrollable" style="border:solid;padding-right: 10px">
+            <div class="list-group">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <h3>LaTeX格式</h3>
+        <div>
+
+            <textarea id="MathInput" rows="10" style="width: 100%;"></textarea>
+            <br/>
+            <h3>公式展示</h3>
+            <div id="MathPreview" class="preview" style="font-size: 1.5em;"></div>
+            <div id="MathBuffer" class="preview" style="visibility:hidden; position:absolute; top:0; left: 0;font-size: 1.5em;"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
