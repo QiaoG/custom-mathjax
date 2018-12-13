@@ -172,7 +172,7 @@ window.MathJax = {
               // document.getElementById("MathInput").
               // console.log(Preview);
               this.Update();
-              continue;
+              break;
             }
           }
         }
